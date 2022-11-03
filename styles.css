@@ -59,7 +59,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(246, 247, 198);
-    padding: 80px;
+    padding-bottom: 80px;
+    padding-top: 40px;
     font-family: monospace;
     font-size: x-large;
   }
