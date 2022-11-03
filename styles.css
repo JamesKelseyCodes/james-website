@@ -8,6 +8,20 @@
     gap: 100px;
     padding: 10px;
   }
+
+body {
+  background-color:antiquewhite;
+}
+
+  .title {
+    font-size: 32px;
+    background: rgb(246, 247, 198);
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 0.5em 5em;
+  }
   
   .header a {
     font-size: x-large;
