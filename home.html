@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>James Kelsey - Personal Portfolio</title>
+            <style>
+                body {
+                    background - color: #87CEFA;
+      }
+
+                header {
+                    text - align: center;
+                padding: 1em;
+      }
+
+                nav {
+                    display:inline-block;
+      }
+
+                nav ul {
+                    list - style - type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+      }
+
+                nav li {
+                    float: left;
+                margin-right: 1em;
+      }
+
+                nav a {
+                    text - decoration: none;
+                color: white;
+      }
+
+                h1, h2 {
+                    color: white;
+      }
+
+                #about, #projects, #contact {
+                    background - color: #ADD8E6;
+                padding: 1em;
+      }
+
+                #about h3, #projects h3, #contact h3 {
+                    color: white;
+      }
+
+                #about p, #projects li, #contact li {
+                    color: white;
+      }
+
+                footer {
+                    text - align: center;
+                background-color: #87CEFA;
+                padding: 1em;
+      }
+
+                footer p {
+                    color: white;
+      }
+
+                #sphere {
+                    width: 200px;
+                height: 200px;
+                background-color: grey;
+                border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+      }
+            </style>
+        </head>
+        <body>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <h1>James Kelsey</h1>
+                <h2>Computer Science Student at Edith Cowan University</h2>
+            </header>
+            <section id="about">
+                <h3>About</h3>
+                <p>I am a computer science student at Edith Cowan University with a passion for software development and a strong background in programming. I am skilled in languages such as Python, Java, and JavaScript, and have experience in web development and data analysis. I am also familiar with various software development methodologies, including Agile and Scrum.</p>
+            </section>
+            <section id="projects">
+                <h3>Projects</h3>
+                <ul>
+                    <li>
+                        <h4>Project Title</h4>
+                        <p>A brief description of the project and the technologies and tools used.</p>
+                    </li>
+                    <li>
+                        <h4>Project Title</h4>
+                        <p>A brief description of the project and the technologies and tools used.</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: james.kelsey@email.com</li>
+                    <li>LinkedIn: linkedin.com/in/james-kelsey</li>
+                    <li>GitHub: github.com/jameskelsey</li>
+                </ul>
+            </section>
+            <div id="sphere"></div>
+            <footer>
+                <p>Copyright © James Kelsey</p>
+            </footer>
+            <script>
+                let sphere = document.getElementById("sphere");
+                sphere.addEventListener("mouseover", function() {
+                    sphere.style.backgroundColor = "red"});
+                sphere.addEventListener("mouseout", function() {
+                    sphere.style.backgroundColor = "grey"});
+            </script>
+
+        </body>
+    </html>
